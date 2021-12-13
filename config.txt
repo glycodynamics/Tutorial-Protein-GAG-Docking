@@ -1,0 +1,16 @@
+size_x =  40.00
+size_y =  40.00
+size_z =  40.00
+center_x =  29.86
+center_y =  79.76
+center_z =  15.72
+
+receptor=receptor.pdbqt
+ligand=ligand.pdbqt 
+cpu=12            
+exhaustiveness=8
+seed=0          
+num_modes=200   
+energy_range=10
+#chi_coeff=1  
+#chi_cutoff=2
