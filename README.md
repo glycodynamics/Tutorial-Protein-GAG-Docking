@@ -43,13 +43,13 @@ This file (config.txt) has been prepared and provided with input files.
 ## 4. Docking
 ```
 module load autodock-vina
-vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log <br />
+vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log
 
 module load vina-carb/v1.2
-vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb.log --chi_coeff 1 --chi_cutoff 2 <br />
+vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb.log --chi_coeff 1 --chi_cutoff 2
 
 module load glycotorch-vina
-GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2 <br />
+GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2
 ```
 ## 5. Analyzing Docking Results
 We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. 
