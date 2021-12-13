@@ -16,8 +16,8 @@ Now select all the co-crystalized ligands and remove them (Action --> remove ato
 These files have been prepared and placed under gag-docking direcotry. 
 
 ## 2. Preperation of reseptor and ligand PDBQT files
-module load mgltools/v2.1.5.7
-prepare_pdb_split_alt_confs.py -r receptor.pdb
+module load mgltools/v2.1.5.7 \
+prepare_pdb_split_alt_confs.py -r receptor.pdb \
 prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
 prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 
@@ -28,24 +28,24 @@ Load 1T8U.pdb in pymol and open Auodock/Vina plugin. Select grid settings and se
 Now open config.txt file and add following lines at the end of the file, save and close. 
 
 receptor=receptor.pdbqt
-ligand=ligand.pdbqt 
-ncpus=1
-exhaustiveness=8
-seed=0
-num_modes=200
-energy_range=10
+ligand=ligand.pdbqt <br />
+ncpus=1 <br />
+exhaustiveness=8 <br />
+seed=0 <br />
+num_modes=200 <br />
+energy_range=10 <br />
 
 This file (config.txt) has been prepared and provided with input files.
 
 ## 4. Docking
-module load autodock-vina
-vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log
+module load autodock-vina <br />
+vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log <br />
 
-module load vina-carb/v1.2
-vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb.log --chi_coeff 1 --chi_cutoff 2
+module load vina-carb/v1.2 <br />
+vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb.log --chi_coeff 1 --chi_cutoff 2 <br />
 
-module load glycotorch-vina
-GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2
+module load glycotorch-vina <br />
+GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2 <br />
 
 ## 5. Analyzing Docking Results
 We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. 
