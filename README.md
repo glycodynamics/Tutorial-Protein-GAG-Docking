@@ -22,5 +22,7 @@ prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
 prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 
 ## 3. Docking input files
+Load 1T8U.pdb in pymol and open Auodock/Vina plugin. Select grid settings and set spacking to 1, X-points, Y-points and Z-points to 40. Now select heparin sulfate in PyMOL window and write "sele" in Selection abd hit eneter. You will see a 40A cubical box centered at the liagnd. Make sure ligand is place fully inside the box as docking program will do conformation search and find a possible docking solution inside the box only. 
+
 ## 4. Docking
 ## 5. Analyzing Docking Results
