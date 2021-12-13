@@ -16,25 +16,28 @@ Now select all the co-crystalized ligands and remove them (Action --> remove ato
 These files have been prepared and placed under gag-docking direcotry. 
 
 ## 2. Preperation of reseptor and ligand PDBQT files
+
+```
 module load mgltools/v2.1.5.7 \
 prepare_pdb_split_alt_confs.py -r receptor.pdb \
 prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
 prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
+```
 
 ## 3. Prepare docking configuration files
 Load 1T8U.pdb in pymol and open Auodock/Vina plugin. Select grid settings and set spacking to 1, X-points, Y-points and Z-points to 40. Now select heparin sulfate in PyMOL window and write "sele" in Selection abd hit eneter. You will see a 40A cubical box centered at the liagnd. Make sure ligand is place fully inside the box as docking program will do conformation search and find a possible docking solution inside the box only. 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/Screenshot%20from%202021-12-13%2015-40-31.png)
 
 Now open config.txt file and add following lines at the end of the file, save and close. 
-
+```
 receptor=receptor.pdbqt
-ligand=ligand.pdbqt <br />
-ncpus=1 <br />
-exhaustiveness=8 <br />
-seed=0 <br />
-num_modes=200 <br />
-energy_range=10 <br />
-
+ligand=ligand.pdbqt 
+ncpus=1 
+exhaustiveness=8
+seed=0 
+num_modes=20
+energy_range=10
+```
 This file (config.txt) has been prepared and provided with input files.
 
 ## 4. Docking
