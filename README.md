@@ -18,8 +18,8 @@ These files have been prepared and placed under gag-docking direcotry.
 ## 2. Preperation of reseptor and ligand PDBQT files
 
 ```
-module load mgltools/v2.1.5.7 \
-prepare_pdb_split_alt_confs.py -r receptor.pdb \
+module load mgltools/v2.1.5.7 
+prepare_pdb_split_alt_confs.py -r receptor.pdb 
 prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
 prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 ```
@@ -41,15 +41,16 @@ energy_range=10
 This file (config.txt) has been prepared and provided with input files.
 
 ## 4. Docking
-module load autodock-vina <br />
+```
+module load autodock-vina
 vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log <br />
 
-module load vina-carb/v1.2 <br />
+module load vina-carb/v1.2
 vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb.log --chi_coeff 1 --chi_cutoff 2 <br />
 
-module load glycotorch-vina <br />
+module load glycotorch-vina
 GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2 <br />
-
+```
 ## 5. Analyzing Docking Results
 We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. 
 
