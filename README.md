@@ -48,6 +48,6 @@ module load glycotorch-vina
 GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2
 
 ## 5. Analyzing Docking Results
-
-![alt text] (https://github.com/glycodynamics/gag-docking/blob/main/images/docked_ligands.png)
 We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. 
+
+![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/docked_ligands.png)
