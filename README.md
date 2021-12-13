@@ -23,6 +23,6 @@ prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 
 ## 3. Docking input files
 Load 1T8U.pdb in pymol and open Auodock/Vina plugin. Select grid settings and set spacking to 1, X-points, Y-points and Z-points to 40. Now select heparin sulfate in PyMOL window and write "sele" in Selection abd hit eneter. You will see a 40A cubical box centered at the liagnd. Make sure ligand is place fully inside the box as docking program will do conformation search and find a possible docking solution inside the box only. 
-
+![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/Screenshot%20from%202021-12-13%2015-40-31.png)
 ## 4. Docking
 ## 5. Analyzing Docking Results
