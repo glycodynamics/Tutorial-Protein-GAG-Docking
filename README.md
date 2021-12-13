@@ -5,9 +5,9 @@ We will breakdown this tutorial in five steps.
 
 ## 1. Structure Preperation
 In this tutorial we will be docking a Heparan sulfate (HS) etrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. Firt of all, download X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform following structure manipulations:
-### remove crystal waters: 
+#### remove crystal waters: 
 Open 1t8u.pdb fil in PyMOL and click non on Action --> remove waters
-### save ligand and protein selerately
+#### save ligand and protein selerately
 Now split the complex in protein and HS and save them seperately in two seperate pdb files. 
 Select HS tetrasaccharide by clicking left mouse button on each monosaccharide. Then click on File --> export molecule --> Selection (sele) --> Save File name: ligand --> Files of type: pdb --> save
 
