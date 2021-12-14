@@ -1,0 +1,3320 @@
+MODEL 1
+REMARK VINA RESULT:      -8.6      0.000      0.000
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      33.203  74.759  18.290  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      34.298  74.928  19.346  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      34.840  73.574  19.796  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.722  72.708  20.410  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      32.353  73.208  19.931  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      32.427  73.564  18.530  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      33.906  71.323  20.025  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.867  71.081  19.033  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      34.540  69.777  18.285  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.826  68.531  19.132  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      36.202  68.605  19.815  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      36.373  69.952  20.506  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      36.180  71.020  19.562  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      33.143  69.773  17.909  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      32.409  69.653  18.607  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      32.779  69.970  16.310  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      33.458  68.873  15.645  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      33.339  71.303  15.942  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.295  69.915  16.127  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.749  67.369  18.310  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      35.532  67.307  17.775  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      36.294  67.567  20.807  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      35.321  67.602  21.794  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      34.674  66.236  21.938  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      33.538  66.300  22.955  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      33.880  67.166  24.255  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      35.065  67.912  24.167  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      35.958  67.946  23.017  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      34.092  65.818  20.662  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      34.191  64.298  20.169  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      34.216  64.325  18.699  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      32.996  63.608  20.679  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      35.431  63.740  20.731  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      33.196  64.980  23.349  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      33.947  64.414  23.215  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      35.569  68.748  25.292  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      36.626  68.401  25.855  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      34.909  69.756  25.621  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      37.723  70.156  21.135  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      37.740  71.528  21.586  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      37.463  71.767  23.139  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      36.006  71.913  23.311  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      38.193  73.014  23.516  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      37.975  70.599  23.844  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      35.876  73.771  20.749  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      36.540  73.101  20.638  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      31.210  72.216  20.101  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      30.855  71.563  19.095  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      30.694  72.091  21.237  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      35.403  75.699  18.789  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      35.463  77.276  19.028  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      36.913  77.634  19.196  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      34.674  77.561  20.244  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      34.886  77.902  17.852  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      32.352  75.854  18.327  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.933  75.597  18.422  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      30.362  76.288  19.666  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      28.841  76.152  19.690  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      28.213  76.636  18.384  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      28.794  75.944  17.271  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      30.224  76.139  17.169  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      30.904  75.700  20.838  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      31.002  74.764  20.703  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      28.284  76.896  20.801  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      28.216  77.913  20.805  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      27.768  75.960  22.064  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      26.296  76.097  22.121  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      28.427  76.511  23.253  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      28.196  74.576  21.768  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      28.438  77.995  18.227  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      27.609  78.459  18.203  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      30.665  75.445  15.905  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      30.738  76.405  14.828  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      29.662  76.204  13.669  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      28.359  76.849  14.147  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      29.518  74.772  13.481  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      30.224  76.905  12.393  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -8.0      1.455      3.875
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      32.447  74.908  18.380  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      33.661  75.063  19.300  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      34.322  73.713  19.567  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.337  72.739  20.243  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      31.895  73.191  19.983  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      31.769  73.655  18.617  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      33.538  71.399  19.726  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.510  71.265  18.724  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      34.169  70.073  17.813  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.417  68.725  18.499  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      35.784  68.681  19.204  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      35.970  69.926  20.063  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      35.813  71.109  19.259  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.779  70.146  17.421  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      32.032  70.058  18.109  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      32.446  70.378  15.820  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      31.018  70.146  15.708  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      33.255  69.351  15.098  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      32.830  71.770  15.427  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.331  67.677  17.536  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      34.324  66.838  17.980  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      35.839  67.525  20.058  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      34.846  67.451  21.022  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      34.177  66.089  20.980  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      33.020  66.043  21.975  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      33.347  66.732  23.380  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      34.544  67.463  23.410  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      35.462  67.627  22.292  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      33.616  65.846  19.650  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      33.999  64.530  18.821  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      33.413  64.682  17.481  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.416  63.390  19.543  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      35.468  64.461  18.774  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      32.651  64.690  22.191  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      32.953  64.167  21.458  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      35.037  68.141  24.641  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      34.459  69.183  25.010  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      36.007  67.637  25.247  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      37.313  70.021  20.731  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      37.421  71.383  21.199  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      37.053  71.636  22.731  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      35.622  71.988  22.789  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      37.919  72.759  23.198  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      37.333  70.396  23.444  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      35.462  73.899  20.395  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      36.198  74.176  19.863  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      30.834  72.123  20.213  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      30.508  71.411  19.238  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      30.353  72.000  21.364  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      34.644  75.937  18.674  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      34.901  77.393  19.275  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      34.192  78.365  18.374  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      36.363  77.607  19.284  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      34.347  77.399  20.617  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      31.555  75.945  18.613  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.971  76.597  17.465  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      31.750  76.217  16.200  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      31.048  76.775  14.963  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      29.578  76.364  14.918  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      28.919  76.754  16.129  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      29.505  76.157  17.309  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      33.067  76.740  16.267  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      33.041  77.677  16.110  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      31.715  76.328  13.757  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      32.145  75.407  13.675  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      31.724  77.434  12.526  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      31.675  78.771  13.156  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      30.526  77.144  11.733  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      32.975  77.212  11.768  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      29.477  74.987  14.782  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      30.278  74.640  14.407  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      28.646  76.574  18.476  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      28.593  75.504  19.444  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      28.411  75.969  20.957  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      27.221  76.931  20.994  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      29.647  76.625  21.340  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      28.147  74.685  21.805  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -7.7      2.179      5.238
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      30.629  75.960  17.622  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      31.501  75.584  16.421  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.286  74.304  16.692  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.212  74.473  17.914  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      32.715  75.630  18.789  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      31.269  75.597  18.865  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      33.239  73.244  18.683  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.225  72.314  18.325  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      33.579  70.953  18.009  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      33.090  70.233  19.271  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      34.148  70.249  20.388  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      34.689  71.660  20.576  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      35.209  72.161  19.332  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.455  71.147  17.119  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      31.681  71.761  17.372  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      32.470  70.338  15.679  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      33.170  69.099  15.964  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      33.222  71.223  14.740  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.063  70.106  15.224  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      32.740  68.890  18.947  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      31.833  68.734  19.181  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      33.540  69.824  21.621  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      33.927  68.572  22.072  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      33.817  68.505  23.585  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      34.335  67.161  24.089  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      33.879  65.916  23.196  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      33.272  66.258  21.979  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      33.047  67.614  21.499  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      34.644  69.547  24.196  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      36.216  69.335  24.405  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      36.389  68.663  25.702  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      36.829  70.672  24.402  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      36.694  68.506  23.288  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      33.894  66.967  25.423  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      33.020  67.329  25.516  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      32.746  65.235  21.032  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      31.652  64.698  21.294  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      33.426  64.961  20.020  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      35.793  71.768  21.591  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      36.691  72.779  21.086  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      38.230  72.618  21.477  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      38.386  73.094  22.863  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      39.005  73.456  20.513  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      38.552  71.203  21.352  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      33.056  73.968  15.546  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      33.025  74.684  14.923  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      33.256  75.639  20.212  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      32.447  75.863  21.140  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      34.477  75.407  20.387  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      30.658  75.363  15.253  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      30.976  76.136  13.893  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      29.658  76.381  13.215  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      31.860  75.263  13.093  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      31.634  77.378  14.259  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      30.408  77.330  17.622  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      29.038  77.787  17.601  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      28.514  77.789  16.160  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      27.022  78.121  16.145  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      26.233  77.205  17.078  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      26.780  77.259  18.401  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      28.167  76.852  18.457  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      29.216  78.752  15.391  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      30.082  78.880  15.762  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      26.495  78.017  14.800  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      26.501  77.145  14.271  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      25.881  79.428  14.191  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      26.904  80.471  14.420  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      24.649  79.676  14.947  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      25.626  79.193  12.753  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      26.302  75.896  16.623  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      27.178  75.710  16.305  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      28.561  76.861  19.913  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      27.374  76.820  20.734  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      27.513  75.982  22.083  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      26.118  75.896  22.707  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      28.439  76.711  22.929  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      28.065  74.574  21.695  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -7.4      1.653      3.331
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      33.192  74.321  18.341  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      34.317  74.422  19.374  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      34.715  73.042  19.888  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.520  72.335  20.559  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      32.206  72.958  20.070  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      32.295  73.232  18.651  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      33.546  70.921  20.245  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.531  70.509  19.335  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      33.903  69.633  18.236  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      33.525  68.239  18.748  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      34.658  67.602  19.571  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      35.171  68.592  20.609  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      35.587  69.810  19.968  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.715  70.279  17.723  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      31.995  70.635  18.352  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      32.565  70.419  16.084  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      33.025  71.763  15.790  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      31.110  70.233  15.806  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      33.401  69.371  15.417  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      33.192  67.401  17.644  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      32.607  67.867  17.058  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      34.151  66.442  20.256  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      34.622  65.225  19.790  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      34.680  64.219  20.926  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      35.291  62.909  20.434  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      34.777  62.458  18.989  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      34.030  63.427  18.303  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      33.713  64.758  18.802  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      35.538  64.722  22.000  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      34.993  64.848  23.500  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      34.583  63.500  23.921  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.852  65.774  23.461  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      36.099  65.368  24.320  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      35.005  61.885  21.373  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      34.516  61.195  20.939  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      33.434  63.177  16.961  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      33.335  61.996  16.572  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      33.064  64.160  16.286  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      36.340  68.093  21.413  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      36.048  68.441  22.784  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      36.801  69.722  23.365  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      35.965  70.899  23.067  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      38.122  69.791  22.673  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      36.946  69.512  24.800  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      35.782  73.172  20.819  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      35.930  74.092  21.004  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      30.965  72.106  20.303  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      30.475  72.100  21.454  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      30.488  71.469  19.333  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      35.489  75.038  18.766  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      35.690  76.619  18.863  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      35.119  77.208  17.604  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      37.142  76.865  18.985  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      34.968  77.063  20.042  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      32.466  75.503  18.330  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      31.025  75.404  18.372  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      30.493  76.111  19.625  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      28.966  76.147  19.599  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      28.441  76.744  18.295  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      28.978  76.031  17.174  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      30.423  76.067  17.122  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      30.926  75.424  20.788  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      30.543  74.554  20.800  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      28.458  76.908  20.722  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      28.488  77.927  20.755  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      27.827  75.991  21.945  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      28.429  76.487  23.202  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      28.221  74.612  21.642  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      26.361  76.185  21.907  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      28.821  78.074  18.198  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      28.162  78.629  18.598  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      30.826  75.374  15.845  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      29.817  75.595  14.836  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      30.112  76.801  13.837  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      28.944  77.783  13.958  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      30.198  76.225  12.507  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      31.463  77.445  14.280  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -7.3      2.943      6.291
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      31.113  76.326  17.803  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      31.803  75.639  16.622  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.841  74.630  17.104  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.929  75.319  17.952  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      33.401  76.654  18.492  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      32.024  76.500  18.910  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      34.316  74.457  19.051  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.299  73.079  18.789  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      33.732  72.317  20.000  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.716  72.274  21.174  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      36.135  71.887  20.721  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      36.547  72.725  19.518  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      35.583  72.581  18.460  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.509  72.952  20.440  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      32.529  73.792  21.018  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.080  72.268  19.975  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      30.339  73.353  19.360  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      30.449  71.780  21.237  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.352  71.150  19.017  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.247  71.352  22.154  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      33.978  71.826  22.933  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      37.059  72.140  21.794  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      37.572  71.012  22.415  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      38.897  71.338  23.080  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      39.507  70.074  23.679  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      38.449  69.132  24.419  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      37.107  69.485  24.217  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      36.641  70.603  23.408  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      39.844  71.852  22.089  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      40.770  73.117  22.412  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      40.396  74.175  21.462  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      42.162  72.684  22.221  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      40.500  73.507  23.805  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      40.527  70.443  24.594  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      41.328  70.613  24.112  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      35.981  68.750  24.857  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      36.067  68.483  26.072  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      35.002  68.433  24.148  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      37.890  72.365  18.945  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      37.834  72.742  17.553  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      38.468  74.157  17.177  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      39.266  74.605  18.333  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      37.324  75.078  16.903  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      39.297  73.949  15.997  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      33.435  73.989  15.984  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      34.084  73.364  16.285  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.184  77.227  19.666  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      33.834  76.887  20.818  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      35.145  77.996  19.423  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      30.814  74.928  15.821  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      30.699  75.231  14.258  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      31.589  74.243  13.558  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      31.145  76.625  14.053  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      29.305  75.054  13.895  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      30.654  77.575  17.408  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      29.227  77.801  17.428  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      28.685  77.828  15.994  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      27.160  77.912  16.011  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      26.546  76.809  16.872  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      27.099  76.850  18.193  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      28.535  76.673  18.211  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      29.208  78.950  15.300  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      30.070  78.736  14.962  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      26.633  77.826  14.664  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      26.497  76.939  14.181  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      26.272  79.286  13.974  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      27.344  79.570  12.995  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      26.253  80.247  15.080  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      24.947  79.134  13.332  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      26.820  75.568  16.315  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      27.635  75.229  16.667  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      28.947  76.634  19.662  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      27.792  76.864  20.498  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      27.718  75.965  21.811  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      28.686  76.573  22.829  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      28.117  74.626  21.419  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      26.241  76.007  22.316  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -7.3      1.509      2.142
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      33.067  74.583  18.106  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      34.408  74.700  18.834  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      35.013  73.323  19.093  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      34.076  72.462  19.964  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      32.643  73.003  19.879  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      32.351  73.398  18.517  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      34.114  71.085  19.513  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      35.388  70.513  19.385  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      35.265  69.016  19.052  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.806  68.187  20.257  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      35.587  68.545  21.533  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      35.620  70.056  21.720  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      36.173  70.688  20.551  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      34.316  68.837  17.975  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      33.383  69.244  18.022  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      34.798  67.949  16.669  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      34.082  68.529  15.549  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      34.369  66.550  16.966  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      36.283  68.058  16.514  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.956  66.799  19.965  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      35.055  66.314  20.776  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      34.931  67.957  22.670  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      35.685  67.036  23.380  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      35.404  65.632  22.877  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      36.160  64.611  23.723  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      37.654  65.050  24.084  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      37.968  66.380  23.769  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      37.057  67.342  23.165  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      33.977  65.329  23.001  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      33.253  64.335  21.977  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      32.006  64.989  21.554  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      32.989  63.088  22.710  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      34.175  64.128  20.849  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      36.189  63.371  23.034  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      35.538  63.387  22.342  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      39.322  66.958  23.995  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      40.314  66.235  23.778  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      39.401  68.139  24.393  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      36.434  70.515  22.897  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      36.709  71.913  22.661  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      38.239  72.359  22.749  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      39.032  71.155  23.062  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      38.325  73.377  23.838  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      38.593  72.916  21.450  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      36.271  73.472  19.739  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      36.957  73.533  19.085  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      31.561  72.030  20.326  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      31.603  71.618  21.506  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      30.677  71.702  19.499  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      35.344  75.464  18.019  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      35.786  76.925  18.486  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      37.285  76.975  18.396  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      35.305  77.101  19.873  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      35.158  77.866  17.576  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      32.286  75.693  18.393  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.857  75.501  18.489  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      30.324  76.192  19.750  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      28.798  76.127  19.779  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      28.188  76.667  18.486  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      28.733  75.972  17.357  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      30.169  76.102  17.252  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      30.842  75.554  20.907  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      30.122  75.228  21.435  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      28.281  76.871  20.908  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      28.263  77.891  20.934  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      27.721  75.934  22.152  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      28.349  76.450  23.388  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      28.149  74.568  21.834  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      26.249  76.080  22.163  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      28.476  78.017  18.357  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      27.746  78.535  18.675  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      30.572  75.416  15.971  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      30.625  76.383  14.900  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      29.658  76.083  13.669  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      29.723  74.577  13.401  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      30.165  76.853  12.548  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      28.225  76.539  14.087  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -7.3      3.421     11.138
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      33.772  73.368  17.903  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      33.386  74.245  19.097  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.348  75.290  18.697  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      32.892  76.214  17.589  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      34.055  75.526  16.861  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      33.749  74.123  16.672  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      31.835  76.528  16.648  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.791  75.596  16.560  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      30.193  75.604  15.142  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      29.351  76.857  14.871  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      28.382  77.158  16.028  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      29.123  77.110  17.358  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      29.774  75.837  17.516  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      31.260  75.541  14.167  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      31.999  76.244  14.148  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.238  74.293  13.086  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      31.906  74.817  11.910  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      29.792  74.005  12.848  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.954  73.116  13.671  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      28.625  76.689  13.656  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      28.179  77.499  13.439  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      27.836  78.478  15.855  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      28.596  79.337  15.077  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      27.701  80.112  14.127  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      28.548  80.985  13.205  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      29.760  81.721  13.943  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      29.998  81.286  15.255  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      29.247  80.251  15.951  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      26.948  79.186  13.279  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      25.365  79.340  13.093  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      25.147  80.515  12.237  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      24.797  79.534  14.435  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      24.882  78.102  12.462  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      27.712  81.956  12.594  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      28.231  82.726  12.393  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.059  81.881  16.115  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      31.115  81.528  17.310  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      31.842  82.708  15.601  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      28.245  77.310  18.561  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      28.357  76.094  19.333  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.336  76.258  20.920  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      29.680  76.701  21.336  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      27.996  74.918  21.483  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      27.320  77.255  21.229  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      31.989  76.062  19.835  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      32.728  76.596  20.101  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.401  76.116  15.501  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      34.337  75.359  14.507  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      34.718  77.328  15.441  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      32.815  73.416  20.151  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      31.482  72.586  19.867  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      30.336  73.425  20.358  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      31.598  71.313  20.609  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      31.418  72.370  18.433  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      35.052  72.868  18.092  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      35.699  73.139  19.355  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      35.860  71.835  20.145  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      36.680  72.087  21.410  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      38.007  72.774  21.092  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      37.774  73.981  20.357  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      37.085  73.756  19.105  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      34.586  71.327  20.506  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      33.918  71.962  20.274  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      36.931  70.842  22.106  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      37.520  70.104  21.720  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      36.185  70.714  23.577  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      37.010  69.797  24.394  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      34.854  70.167  23.294  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      36.129  72.079  24.144  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      38.801  71.934  20.325  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      38.576  72.026  19.407  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      37.011  75.092  18.408  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      36.430  76.069  19.298  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      36.637  77.588  18.862  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      37.144  77.578  17.418  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      37.617  78.150  19.774  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      35.252  78.296  18.988  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -7.2      3.022     10.935
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      33.837  73.542  18.431  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      33.223  74.419  19.525  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.175  75.365  18.945  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      32.798  76.298  17.887  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      34.100  75.685  17.354  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      33.931  74.258  17.180  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      31.863  76.500  16.798  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.826  75.562  16.695  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      30.249  75.565  15.268  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      29.405  76.813  14.984  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      28.417  77.111  16.125  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      29.138  77.068  17.466  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      29.793  75.799  17.636  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      31.331  75.507  14.310  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      32.097  76.179  14.339  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.280  74.315  13.168  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      31.853  74.923  11.981  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      29.832  73.988  13.007  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      32.071  73.137  13.643  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      28.698  76.640  13.758  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      28.040  77.320  13.673  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      27.866  78.427  15.943  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      28.608  79.273  15.133  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      27.695  80.000  14.162  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      28.521  80.857  13.207  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      29.724  81.637  13.914  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      29.977  81.250  15.238  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      29.248  80.226  15.972  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      26.953  79.035  13.350  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      25.368  79.159  13.163  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      24.897  77.872  12.631  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      25.137  80.256  12.211  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      24.797  79.448  14.488  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      27.666  81.793  12.569  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      27.810  82.651  12.950  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.032  81.891  16.071  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      31.804  82.702  15.522  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      31.096  81.586  17.281  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      28.240  77.264  18.656  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      28.350  76.051  19.432  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.189  76.205  21.013  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      29.435  76.801  21.527  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      27.967  74.831  21.554  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      27.041  77.073  21.238  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      31.603  76.138  19.992  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      30.973  75.610  20.467  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.589  76.262  16.033  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      35.181  77.363  16.064  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      34.389  75.602  14.985  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      32.574  73.577  20.523  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      31.280  72.734  20.122  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      31.073  71.714  21.206  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      31.559  72.106  18.813  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      30.174  73.671  20.044  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      35.113  73.152  18.814  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      35.284  71.800  19.294  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      34.898  71.724  20.776  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      34.927  70.272  21.252  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      34.079  69.371  20.356  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      34.501  69.495  18.992  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      34.388  70.846  18.487  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      35.805  72.490  21.553  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      36.554  71.951  21.783  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      34.457  70.179  22.619  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      33.504  70.417  22.892  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      35.593  69.654  23.702  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      35.201  70.191  25.023  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      36.867  70.204  23.229  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      35.564  68.175  23.662  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      32.745  69.738  20.443  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      32.493  69.826  21.355  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      34.762  70.793  17.027  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      33.617  71.146  16.222  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      32.928  69.930  15.456  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      31.429  69.997  15.758  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      33.530  68.717  15.978  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      33.223  70.117  13.935  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -7.1      4.229      8.443
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      30.518  79.099  14.820  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      29.384  78.127  15.155  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      29.863  77.034  16.107  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      31.014  76.221  15.481  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      31.679  77.035  14.364  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      31.791  78.419  14.770  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      31.989  75.886  16.500  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      32.008  76.714  17.631  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      33.369  76.610  18.341  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      33.541  75.277  19.079  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      32.301  74.920  19.916  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      31.040  75.074  19.076  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.963  76.406  18.538  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      34.432  76.744  17.370  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      34.303  76.447  16.402  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      35.861  77.395  17.882  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      35.482  78.336  18.919  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      36.441  78.063  16.680  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      36.747  76.304  18.398  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.693  75.343  19.916  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      34.627  76.098  20.489  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      32.399  73.551  20.346  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      32.988  72.685  19.439  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      33.604  71.504  20.167  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      34.336  70.602  19.178  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      33.550  70.375  17.804  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      32.433  71.204  17.624  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      31.970  72.213  18.566  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      34.591  71.972  21.142  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      34.901  71.135  22.470  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      35.114  72.109  23.551  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      36.114  70.348  22.202  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      33.732  70.278  22.724  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      34.579  69.345  19.791  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      34.311  69.389  20.701  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.553  71.112  16.426  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      31.172  69.982  16.061  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      31.240  72.170  15.840  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      29.762  74.828  19.828  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      28.881  75.915  19.469  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.534  76.957  20.626  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      29.440  76.681  21.755  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      27.105  76.727  20.993  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      28.749  78.288  20.074  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      28.778  76.172  16.422  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      27.984  76.500  16.017  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      33.066  76.554  13.957  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      33.137  75.542  13.225  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      34.062  77.200  14.359  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      28.293  78.847  15.798  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      26.785  78.517  15.396  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      26.107  79.832  15.134  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      26.180  77.797  16.537  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      26.838  77.690  14.204  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      30.279  79.680  13.582  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.477  81.106  13.462  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      29.742  81.830  14.596  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      30.073  83.322  14.568  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      31.582  83.562  14.571  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      32.195  82.857  13.485  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      31.979  81.428  13.544  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      28.341  81.658  14.452  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      28.012  82.285  13.818  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      29.471  83.995  15.701  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      29.715  83.774  16.666  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      28.357  85.150  15.302  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      27.425  85.256  16.446  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      27.700  84.655  14.088  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      29.110  86.402  15.069  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      32.130  83.107  15.761  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      33.075  83.195  15.736  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      32.766  80.825  12.408  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      34.045  80.366  12.896  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      35.305  81.191  12.375  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      36.526  80.278  12.501  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      35.415  82.360  13.229  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      35.018  81.580  10.891  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -7.1      1.662      3.182
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      32.811  74.214  17.421  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      34.323  74.254  17.655  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      34.905  72.845  17.723  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      34.271  72.040  18.875  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      32.924  72.663  19.266  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      32.212  73.072  18.073  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      34.081  70.663  18.466  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      35.246  69.896  18.322  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      34.887  68.461  17.899  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.269  67.653  19.046  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      35.070  67.804  20.351  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      35.346  69.277  20.628  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      36.022  69.873  19.506  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      33.946  68.502  16.800  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      32.971  68.760  16.950  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      34.509  68.117  15.296  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      33.603  68.792  14.385  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      34.412  66.630  15.210  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      35.920  68.596  15.154  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.196  66.279  18.674  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      33.296  65.981  18.736  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      34.299  67.271  21.443  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      34.680  66.011  21.877  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      34.545  65.916  23.386  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      35.057  64.563  23.874  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      34.617  63.334  22.951  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      34.030  63.698  21.730  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      33.811  65.063  21.272  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      35.361  66.947  24.030  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      34.719  67.968  25.084  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      35.836  68.588  25.813  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.863  67.173  25.977  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      33.948  68.956  24.315  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      34.594  64.344  25.197  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      33.644  64.354  25.198  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      33.521  62.693  20.756  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      33.110  61.601  21.197  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      33.531  62.988  19.542  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      36.197  69.528  21.841  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      37.188  70.494  21.430  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      37.078  71.945  22.087  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      36.789  72.900  21.002  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      38.396  72.221  22.733  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      35.994  71.887  23.059  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      36.312  72.922  17.907  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      36.506  73.035  18.830  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      32.004  71.753  20.069  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      32.440  71.293  21.147  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      30.855  71.523  19.622  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      34.970  74.963  16.558  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      35.800  76.293  16.859  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      36.607  76.030  18.099  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      34.818  77.381  17.053  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      36.646  76.532  15.704  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      32.232  75.367  17.932  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.798  75.380  18.099  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      30.437  76.039  19.436  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      28.922  76.197  19.552  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      28.339  76.922  18.340  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      28.716  76.247  17.133  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      30.149  76.173  16.952  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      30.908  75.242  20.511  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      30.189  74.727  20.859  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      28.579  76.917  20.761  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      28.743  77.918  20.871  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      27.899  75.986  21.947  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      28.277  74.585  21.657  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      26.454  76.210  21.839  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      28.454  76.466  23.232  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      28.821  78.222  18.291  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      29.752  78.214  18.103  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      30.381  75.539  15.603  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      30.804  76.548  14.661  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      29.776  76.845  13.481  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      28.577  75.915  13.681  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      30.476  76.565  12.241  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      29.370  78.349  13.592  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:      -7.0      3.277     12.084
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      36.143  67.638  22.674  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      34.826  67.078  22.132  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      33.937  68.195  21.591  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.598  69.216  22.696  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      34.629  69.121  23.827  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      35.952  68.942  23.267  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      33.590  70.555  22.142  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      34.128  70.693  20.854  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      34.939  71.997  20.756  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.042  73.240  20.720  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      32.878  73.079  19.727  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      32.181  71.742  19.951  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      33.130  70.666  19.850  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      35.829  72.099  21.892  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      35.472  72.067  22.847  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      37.444  72.269  21.587  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      37.908  70.920  21.319  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      38.021  72.838  22.841  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      37.636  73.181  20.417  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      34.824  74.381  20.375  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      34.528  75.131  20.877  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      31.924  74.134  19.943  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      31.540  74.828  18.806  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      30.475  75.852  19.154  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      29.984  76.548  17.888  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      31.151  76.922  16.861  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      32.401  76.365  17.166  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      32.687  75.503  18.304  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      29.320  75.189  19.762  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      28.534  75.859  20.985  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      27.452  76.670  20.407  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      29.506  76.690  21.711  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      28.014  74.763  21.818  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      29.283  77.727  18.251  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      29.712  78.476  17.854  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      33.617  76.633  16.348  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      34.691  76.105  16.700  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      33.507  77.376  15.350  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      31.076  71.451  18.973  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      31.608  70.458  18.069  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      31.863  70.933  16.567  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      31.497  72.359  16.486  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      30.992  70.087  15.698  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      33.279  70.723  16.292  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      32.741  67.636  21.066  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      32.794  66.689  21.097  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.676  70.326  24.757  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      33.756  70.447  25.595  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      35.637  71.125  24.649  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      35.099  66.146  21.046  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      34.176  64.856  20.863  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      33.336  65.093  19.640  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      33.357  64.733  22.086  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      35.067  63.722  20.695  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      36.646  66.781  23.644  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      37.723  65.898  23.264  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      39.071  66.587  23.511  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      40.216  65.606  23.260  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      40.036  64.317  24.059  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      38.759  63.733  23.773  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      37.653  64.607  24.097  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      39.210  67.702  22.645  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      38.395  67.838  22.175  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      41.486  66.215  23.597  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      41.707  66.545  24.536  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      42.549  66.331  22.334  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      42.978  64.953  22.011  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      43.653  67.160  22.829  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      41.815  66.970  21.220  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      40.105  64.590  25.417  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      39.889  65.501  25.575  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      36.392  63.819  23.844  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      36.514  62.509  24.439  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      35.782  62.334  25.844  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      36.853  62.458  26.930  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      35.174  61.016  25.832  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      34.712  63.466  25.949  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:      -7.0      5.594     10.896
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      27.441  81.059  12.662  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      28.316  80.643  11.477  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      29.303  79.551  11.880  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      30.236  80.038  13.007  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      29.595  81.225  13.737  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      28.177  80.987  13.904  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      30.485  78.957  13.940  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      29.945  77.710  13.596  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      28.998  77.219  14.706  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      29.756  76.759  15.957  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      30.939  75.840  15.607  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      31.775  76.463  14.497  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.949  76.741  13.352  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      28.094  78.285  15.076  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      28.444  79.199  15.362  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      26.473  77.969  15.018  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      26.207  77.685  13.620  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      25.813  79.223  15.487  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      26.161  76.805  15.905  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      28.858  76.086  16.836  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      28.523  75.305  16.411  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      31.771  75.678  16.770  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      31.957  74.369  17.189  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      31.108  74.088  18.415  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      31.386  72.680  18.933  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      31.518  71.580  17.780  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      31.582  72.100  16.479  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      31.544  73.514  16.131  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      31.451  75.022  19.489  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      30.322  75.896  20.215  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      30.960  76.546  21.369  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      29.267  74.962  20.633  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      29.835  76.875  19.231  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      30.349  72.302  19.824  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      29.571  72.091  19.321  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.666  71.230  15.273  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      32.492  71.529  14.387  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      30.904  70.243  15.202  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      32.912  75.601  14.022  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      33.606  76.384  13.027  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      34.569  77.533  13.575  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      34.749  77.307  15.020  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      33.884  78.831  13.298  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      35.827  77.413  12.848  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      30.072  79.167  10.749  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      29.927  79.784  10.042  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      30.182  81.529  15.109  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      31.085  82.392  15.176  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      29.724  80.915  16.102  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      27.475  80.124  10.405  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      27.833  80.465   8.887  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      28.971  81.446   8.919  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      26.617  81.042   8.275  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      28.214  79.216   8.254  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      27.007  82.364  12.481  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      25.633  82.665  12.810  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      24.773  81.405  12.648  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      23.352  81.673  13.141  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      23.347  82.233  14.563  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      24.168  83.405  14.634  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      25.544  83.155  14.266  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      24.730  81.022  11.282  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      25.042  81.741  10.744  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      22.563  80.459  13.094  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      22.791  79.632  13.646  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      21.263  80.523  12.072  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      20.507  81.746  12.422  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      20.500  79.299  12.335  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      21.807  80.569  10.698  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      23.849  81.286  15.444  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      24.724  81.029  15.178  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      26.293  84.445  14.492  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      26.415  84.690  15.909  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      27.668  85.576  16.337  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      28.842  84.620  16.563  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      27.291  86.266  17.557  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      27.947  86.574  15.168  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:      -6.9      2.794     11.533
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      34.935  72.346  20.872  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      33.487  72.189  21.341  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.510  72.710  20.290  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      32.754  74.205  20.002  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      34.176  74.593  20.428  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      35.097  73.536  20.069  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      32.571  74.469  18.588  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      31.353  74.048  18.035  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      31.345  74.301  16.517  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      31.204  75.788  16.175  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      30.086  76.462  16.989  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      30.231  76.114  18.466  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.241  74.686  18.639  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.574  73.805  15.939  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      33.461  74.285  16.093  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      32.491  72.435  15.020  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      33.541  71.581  15.542  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      32.755  72.884  13.621  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.133  71.821  15.164  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      30.948  75.933  14.780  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      31.695  75.616  14.286  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      30.189  77.889  16.843  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      29.044  78.523  16.385  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      29.218  78.930  14.933  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      27.997  79.713  14.459  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      26.605  79.108  14.961  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      26.719  78.100  15.930  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      27.968  77.599  16.484  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      30.380  79.808  14.792  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      31.476  79.551  13.654  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      32.273  78.391  14.081  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      32.295  80.769  13.570  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      30.748  79.288  12.403  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      28.002  79.761  13.041  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      28.615  79.114  12.711  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      25.535  77.390  16.489  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      25.473  76.152  16.354  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      24.656  78.067  17.064  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      29.135  76.657  19.339  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      29.471  76.254  20.684  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.245  76.013  21.678  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      27.107  76.803  21.174  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      28.690  76.480  23.025  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      27.961  74.584  21.661  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      31.178  72.517  20.744  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      31.187  72.012  21.548  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.696  75.891  19.826  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      34.294  76.965  20.327  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      35.509  75.822  18.874  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      33.196  70.781  21.575  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      33.396  69.727  20.393  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      34.845  69.785  20.000  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      32.503  70.139  19.290  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      33.032  68.425  20.922  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      35.771  72.441  21.976  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      37.000  71.682  21.952  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      38.175  72.607  21.611  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      39.494  71.846  21.736  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      39.627  71.173  23.101  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      38.497  70.327  23.345  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      37.241  71.043  23.331  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      38.038  73.093  20.285  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      37.283  73.669  20.238  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      40.615  72.740  21.523  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      40.612  73.711  21.835  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      41.898  72.057  20.732  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      42.877  71.665  21.769  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      42.411  73.105  19.844  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      41.366  70.894  19.989  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      39.685  72.135  24.098  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      39.478  72.989  23.736  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      36.172  70.047  23.705  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      36.671  68.707  23.508  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      36.756  67.816  24.827  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      36.403  68.723  26.008  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      38.121  67.329  24.910  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      35.731  66.650  24.661  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:      -6.9      6.149     10.777
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      28.379  81.849  13.452  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      29.019  80.788  12.553  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      29.148  79.455  13.283  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      30.026  79.598  14.543  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      30.075  81.067  14.980  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      28.764  81.663  14.832  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      29.488  78.780  15.612  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      29.259  77.432  15.301  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      28.516  76.740  16.458  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      29.422  76.503  17.672  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      30.778  75.899  17.268  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      31.381  76.692  16.114  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.459  76.737  15.011  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      27.394  77.555  16.868  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      27.513  78.325  17.526  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      25.913  77.195  16.232  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      25.928  77.794  14.910  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      24.926  77.840  17.147  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      25.741  75.709  16.181  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      28.761  75.643  18.598  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      28.724  74.763  18.242  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      31.679  75.967  18.388  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      32.425  74.822  18.620  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      33.805  75.193  19.131  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      34.658  73.937  19.293  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      33.873  72.699  19.930  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      32.485  72.875  20.033  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      31.751  74.059  19.612  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      34.484  76.059  18.166  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      35.001  77.515  18.584  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      35.214  77.492  20.039  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.945  78.465  18.206  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      36.252  77.757  17.848  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      35.783  74.245  20.101  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      36.083  73.451  20.527  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.592  71.847  20.637  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      30.482  71.646  20.104  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      31.993  71.236  21.650  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      32.672  76.130  15.588  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      32.696  76.458  14.182  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      33.872  77.424  13.700  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      34.812  77.572  14.826  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      33.234  78.724  13.337  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      34.501  76.784  12.552  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      29.714  78.488  12.409  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      29.251  77.665  12.505  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      30.533  81.297  16.414  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      30.157  82.346  16.982  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      31.248  80.422  16.958  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      28.191  80.583  11.371  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      28.850  80.675   9.921  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      27.829  81.310   9.019  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      29.180  79.296   9.505  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      30.040  81.497  10.050  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      28.788  83.110  13.045  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      28.211  84.252  13.716  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      29.327  85.139  14.282  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      28.733  86.424  14.857  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      27.847  87.138  13.839  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      26.831  86.248  13.359  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      27.370  85.068  12.720  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      30.024  84.446  15.306  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      29.577  84.578  16.134  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      29.787  87.317  15.294  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      30.764  87.186  15.031  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      29.279  88.564  16.255  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      28.113  88.065  17.017  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      28.923  89.647  15.332  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      30.417  88.915  17.131  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      28.611  87.560  12.761  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      29.329  88.102  13.066  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      26.193  84.293  12.182  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      24.991  84.702  12.869  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      23.749  85.028  11.925  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      24.076  84.466  10.540  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      23.615  86.473  11.904  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      22.499  84.337  12.554  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:      -6.9      5.631     10.283
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      25.802  79.156  13.701  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      26.722  80.300  14.133  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      28.058  79.767  14.643  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      27.856  78.839  15.858  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      26.415  78.313  15.877  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      25.997  77.988  14.530  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      28.789  77.731  15.791  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.077  77.979  16.286  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      31.130  77.334  15.368  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      31.165  75.807  15.504  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      31.172  75.361  16.976  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      30.078  76.088  17.748  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.239  77.511  17.613  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      30.843  77.672  13.991  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      30.002  77.328  13.528  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.925  78.634  13.197  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      31.622  79.978  13.653  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      31.632  78.438  11.746  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      33.317  78.214  13.549  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      32.315  75.297  14.833  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      32.294  74.347  14.846  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      30.917  73.947  17.043  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      31.920  73.190  17.628  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      32.569  72.292  16.590  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      33.606  71.390  17.254  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      34.505  72.132  18.347  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      34.067  73.420  18.691  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      32.896  74.087  18.142  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      31.563  71.422  15.978  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      31.361  71.385  14.390  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      30.707  72.647  14.013  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      30.508  70.223  14.098  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      32.696  71.256  13.787  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      34.446  70.837  16.252  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      34.916  70.097  16.617  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      34.799  74.281  19.661  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      34.904  73.884  20.838  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      35.271  75.363  19.252  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      30.055  75.783  19.220  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      28.662  75.799  19.600  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.353  76.033  21.149  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      27.181  76.922  21.236  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      29.573  76.663  21.736  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      28.082  74.723  21.728  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      28.898  80.856  15.002  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      28.592  81.646  14.573  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      26.192  77.081  16.744  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      26.650  77.101  17.908  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      25.551  76.119  16.259  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      26.984  81.175  12.997  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      26.794  82.752  13.156  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      28.170  83.351  13.223  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      26.029  82.973  14.402  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      26.062  83.208  11.988  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      24.479  79.560  13.811  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      23.833  80.070  12.624  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      23.745  78.964  11.565  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      22.928  79.447  10.368  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      21.565  79.986  10.799  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      21.730  81.013  11.784  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      22.415  80.553  12.972  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      25.047  78.606  11.130  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      25.266  77.744  11.467  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      22.746  78.373   9.413  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      22.228  77.523   9.632  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      23.448  78.639   7.938  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      22.840  77.672   6.998  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      24.881  78.400   8.140  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      23.152  80.042   7.575  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      20.806  78.963  11.348  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      21.273  78.140  11.278  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      22.416  81.706  13.944  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      21.288  82.566  13.673  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      21.648  84.102  13.446  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      23.171  84.195  13.320  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      21.158  84.819  14.609  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      20.928  84.554  12.137  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:      -6.8      4.276      8.444
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      30.141  79.204  14.797  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      28.924  78.292  14.965  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      29.210  77.176  15.967  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      30.393  76.304  15.501  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      31.248  77.082  14.492  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      31.373  78.460  14.919  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      31.200  75.920  16.642  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.785  74.772  17.332  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      31.048  74.935  18.839  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      32.538  74.835  19.185  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      33.208  73.633  18.497  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      32.850  73.611  17.017  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      31.421  73.600  16.853  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      30.553  76.222  19.279  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      31.063  77.081  19.074  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      29.135  76.249  20.125  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      29.302  77.328  21.081  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      29.042  74.910  20.778  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      27.998  76.494  19.183  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      32.692  74.738  20.599  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      32.604  75.601  20.987  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      34.636  73.754  18.621  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      35.247  72.790  19.408  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      36.615  73.272  19.856  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      37.326  72.173  20.641  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      36.378  71.390  21.662  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      35.010  71.669  21.525  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      34.429  72.583  20.552  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      37.446  73.582  18.692  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      38.169  75.003  18.549  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      38.648  75.102  17.162  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      39.282  75.012  19.510  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      37.164  76.033  18.858  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      38.412  72.744  21.354  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      38.626  73.585  20.969  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      33.977  71.066  22.413  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      32.929  70.639  21.890  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      34.207  71.019  23.640  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      33.389  72.423  16.269  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      32.306  71.965  15.430  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      31.895  70.431  15.581  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      33.076  69.621  15.231  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      30.763  70.198  14.635  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      31.498  70.234  16.969  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      28.049  76.371  16.123  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      28.294  75.529  16.488  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      32.650  76.530  14.277  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      32.754  75.367  13.829  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      33.628  77.269  14.543  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      27.793  79.068  15.457  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      26.465  79.171  14.577  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      25.762  77.849  14.695  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      26.887  79.457  13.189  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      25.675  80.255  15.133  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      30.106  79.797  13.542  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      30.402  81.208  13.459  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      29.661  81.960  14.571  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      30.089  83.427  14.587  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      31.608  83.568  14.666  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      32.227  82.842  13.596  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      31.916  81.430  13.618  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      28.261  81.883  14.357  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      27.862  82.714  14.588  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      29.478  84.120  15.703  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      29.709  83.910  16.674  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      28.377  85.277  15.274  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      27.060  84.606  15.207  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      28.820  85.773  13.967  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      28.427  86.319  16.323  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      32.068  83.058  15.871  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      32.731  82.398  15.711  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      32.716  80.795  12.508  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      34.064  80.550  12.964  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      35.200  81.342  12.174  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      36.217  80.306  11.689  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      35.787  82.275  13.118  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      34.505  82.077  10.985  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:      -6.7      5.037     10.192
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      28.445  80.439  12.670  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      29.605  80.224  11.695  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      30.624  79.241  12.263  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      31.213  79.760  13.590  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      30.270  80.800  14.207  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      28.897  80.372  14.041  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      31.403  78.655  14.509  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.914  77.411  14.086  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      30.009  76.801  15.172  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      30.808  76.291  16.377  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      32.025  75.454  15.947  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      32.813  76.190  14.870  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      31.955  76.508  13.760  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      29.065  77.797  15.629  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      29.380  78.660  16.072  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      27.458  77.486  15.407  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      27.323  77.263  13.980  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      26.753  78.719  15.868  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      27.068  76.285  16.211  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      29.957  75.519  17.220  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      29.398  74.967  16.685  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      32.884  75.249  17.083  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      32.946  73.947  17.553  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      32.571  73.904  19.023  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      32.733  72.486  19.564  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      32.208  71.350  18.569  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      31.891  71.800  17.280  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      32.010  73.174  16.812  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      33.464  74.769  19.796  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      32.966  76.186  20.350  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      33.804  77.213  19.715  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.150  76.160  21.808  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      31.549  76.322  19.975  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      32.044  72.381  20.800  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      31.796  73.251  21.090  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.349  70.896  16.227  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      31.003  71.400  15.140  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      31.264  69.676  16.482  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      33.979  75.416  14.321  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      33.514  74.836  13.083  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      33.700  73.259  12.926  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      34.002  72.715  14.263  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      34.833  73.055  11.975  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      32.445  72.735  12.402  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      31.667  79.040  11.318  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      32.230  78.335  11.613  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      30.496  81.076  15.687  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      29.897  80.351  16.511  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      31.281  82.001  16.007  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      29.098  79.682  10.441  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      29.237  80.535   9.099  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      29.028  79.583   7.956  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      30.595  81.119   9.096  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      28.211  81.560   9.143  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      27.882  81.688  12.451  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      26.440  81.782  12.451  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      25.830  80.397  12.206  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      24.311  80.458  12.359  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      23.905  81.073  13.697  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      24.511  82.362  13.851  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      25.956  82.317  13.810  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      26.152  79.951  10.898  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      27.091  79.819  10.834  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      23.736  79.134  12.238  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      23.810  78.432  12.975  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      22.952  78.853  10.809  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      23.860  78.029   9.981  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      22.712  80.177  10.228  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      21.698  78.145  11.146  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      24.326  80.258  14.738  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      25.131  80.600  15.111  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      26.441  83.717  14.090  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      27.700  83.661  14.794  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      28.319  85.076  15.187  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      27.477  86.147  14.490  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      29.691  85.074  14.714  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      28.241  85.196  16.742  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:      -6.7      2.762     11.182
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      35.301  71.482  21.412  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      33.880  71.408  21.975  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      32.845  71.699  20.892  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      33.046  73.109  20.300  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      34.479  73.588  20.569  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      35.403  72.489  20.381  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      32.791  73.084  18.874  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      31.447  72.974  18.490  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      31.327  73.039  16.957  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      31.564  74.452  16.413  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      30.783  75.513  17.208  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      31.003  75.313  18.702  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.637  73.974  19.082  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      32.292  72.142  16.359  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      33.293  72.271  16.506  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.715  70.905  15.430  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      31.195  69.944  16.384  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      32.900  70.391  14.681  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      30.654  71.425  14.510  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      31.193  74.501  15.037  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      30.309  74.166  14.936  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      31.260  76.821  16.847  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      30.294  77.694  16.371  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      30.473  77.908  14.879  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      29.471  78.943  14.375  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      28.005  78.780  14.991  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      27.914  77.869  16.054  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      29.022  77.103  16.607  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      31.813  78.429  14.602  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      32.773  77.713  13.539  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      33.226  76.455  14.150  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      33.894  78.632  13.294  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      31.975  77.479  12.325  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      29.396  78.863  12.960  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      28.773  78.186  12.722  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      26.625  77.553  16.729  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      25.586  78.086  16.292  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      26.643  76.772  17.704  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      30.213  76.250  19.573  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      28.979  75.561  19.870  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      28.292  75.910  21.268  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      29.306  76.577  22.104  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      27.851  74.613  21.861  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      27.167  76.789  20.978  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      31.539  71.588  21.442  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      31.588  71.646  22.388  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.945  74.744  19.696  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      35.920  74.543  18.939  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      34.322  75.831  19.765  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      33.628  70.071  22.499  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      33.766  68.807  21.533  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      32.956  69.110  20.304  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      33.242  67.639  22.272  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      35.178  68.662  21.228  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      36.187  71.802  22.431  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      37.566  71.403  22.271  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      38.432  72.633  21.975  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      39.909  72.244  21.958  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      40.311  71.511  23.237  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      39.461  70.376  23.443  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      38.064  70.731  23.562  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      38.078  73.182  20.716  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      38.133  74.130  20.760  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      40.740  73.418  21.789  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      40.755  74.184  22.462  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      41.663  73.415  20.416  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      40.765  73.041  19.301  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      42.710  72.416  20.652  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      42.206  74.783  20.269  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      40.188  72.360  24.326  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      40.037  73.249  24.028  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      37.320  69.457  23.879  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      38.035  68.331  23.325  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      37.614  66.909  23.909  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      36.227  67.071  24.536  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      38.616  66.555  24.898  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      37.598  65.906  22.713  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:      -6.4      5.728     10.274
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      25.985  79.274  13.822  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      27.115  80.231  14.208  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      28.391  79.465  14.545  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      28.162  78.502  15.728  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      26.664  78.205  15.875  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      26.070  78.039  14.566  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      28.893  77.270  15.507  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      30.290  77.360  15.584  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      30.937  76.531  14.460  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      30.830  75.023  14.713  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      31.224  74.653  16.153  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      30.506  75.562  17.143  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      30.786  76.940  16.842  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      30.292  76.838  13.202  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      29.333  76.546  13.015  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      31.165  77.677  12.078  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      30.415  77.525  10.846  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      32.496  77.002  12.032  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      31.278  79.108  12.503  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      31.657  74.325  13.785  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      32.484  74.784  13.691  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      30.836  73.293  16.416  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      31.758  72.329  16.039  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      31.996  71.359  17.182  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      33.082  70.357  16.800  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      32.966  69.816  15.300  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      32.037  70.498  14.501  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      31.215  71.620  14.933  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      32.467  72.082  18.365  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      31.868  71.768  19.816  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      32.241  72.893  20.686  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      32.480  70.509  20.264  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      30.409  71.650  19.665  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      33.035  69.260  17.699  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      33.904  69.113  18.052  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      31.761  70.113  13.089  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      30.956  70.806  12.437  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      32.345  69.111  12.624  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      30.888  75.336  18.579  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      30.680  76.601  19.242  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      29.533  76.639  20.352  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      30.193  76.626  21.670  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      28.695  75.421  20.140  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      28.777  77.866  20.138  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      29.425  80.385  14.866  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      29.316  81.177  14.352  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      26.332  76.969  16.700  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      25.550  76.131  16.199  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      26.867  76.844  17.827  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      27.401  81.128  13.096  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      27.359  82.707  13.324  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      25.923  83.070  13.577  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      27.885  83.337  12.095  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      28.198  82.989  14.474  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      24.761  79.870  14.092  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      23.914  80.199  12.969  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      23.662  78.945  12.123  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      22.645  79.249  11.024  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      21.368  79.863  11.595  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      21.684  81.027  12.369  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      22.569  80.746  13.478  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      24.876  78.510  11.530  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      25.594  78.672  12.131  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      22.319  78.044  10.290  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      22.352  77.116  10.711  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      21.888  78.295   8.712  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      22.171  79.717   8.416  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      20.458  77.982   8.643  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      22.711  77.374   7.897  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      20.729  78.945  12.416  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      19.808  78.894  12.190  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      22.719  82.034  14.247  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      22.527  83.154  13.356  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      21.323  84.125  13.740  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      21.381  84.341  15.254  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      20.103  83.450  13.337  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      21.537  85.456  12.953  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:      -6.4      3.254      6.168
+REMARK  27 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  O1_2 
+REMARK    2  A    between atoms: S1_5  and  N2_7 
+REMARK    3  A    between atoms: C2_6  and  N2_7 
+REMARK    4  A    between atoms: S2_10  and  O6_22 
+REMARK    5  A    between atoms: C3_11  and  O3_12 
+REMARK    6  A    between atoms: C4_15  and  O4_16 
+REMARK    7  A    between atoms: O4_16  and  C1_24 
+REMARK    8  A    between atoms: C5_18  and  C6_21 
+REMARK    9  A    between atoms: C6_21  and  O6_22 
+REMARK   10  A    between atoms: C2_26  and  O2_27 
+REMARK   11  A    between atoms: O2_27  and  S_40 
+REMARK   12  A    between atoms: C3_29  and  O3_30 
+REMARK   13  A    between atoms: C4_33  and  O4_34 
+REMARK   14  A    between atoms: O4_34  and  C1_41 
+REMARK   15  A    between atoms: C5_35  and  C6_37 
+REMARK   16  A    between atoms: S1_43  and  N2_45 
+REMARK   17  A    between atoms: C2_44  and  N2_45 
+REMARK   18  A    between atoms: S2_48  and  O6_60 
+REMARK   19  A    between atoms: C3_49  and  O3_50 
+REMARK   20  A    between atoms: C4_53  and  O4_54 
+REMARK   21  A    between atoms: O4_54  and  C1_62 
+REMARK   22  A    between atoms: C5_56  and  C6_59 
+REMARK   23  A    between atoms: C6_59  and  O6_60 
+REMARK   24  A    between atoms: C2_64  and  O2_65 
+REMARK   25  A    between atoms: O2_65  and  S_77 
+REMARK   26  A    between atoms: C3_67  and  O3_68 
+REMARK   27  A    between atoms: C5_72  and  C6_74 
+ROOT
+HETATM    1  C1  IDS C   2      36.211  72.199  20.551  1.00 40.81     0.294 C 
+HETATM    2  C2  IDS C   2      37.660  71.849  20.900  1.00 40.20     0.231 C 
+HETATM    3  C3  IDS C   2      37.783  70.390  21.330  1.00 39.01     0.185 C 
+HETATM    4  C4  IDS C   2      36.915  70.105  22.573  1.00 37.65     0.195 C 
+HETATM    5  C5  IDS C   2      35.817  71.169  22.697  1.00 35.99     0.257 C 
+HETATM    6  O5  IDS C   2      35.283  71.472  21.386  1.00 39.00    -0.340 OA
+ENDROOT
+BRANCH   4   7
+HETATM    7  O4  IDS C   2      36.320  68.787  22.465  1.00 35.98    -0.348 OA
+BRANCH   7   8
+HETATM    8  C1  SGN C   3      36.479  68.138  21.232  1.00 35.40     0.287 C 
+HETATM    9  C2  SGN C   3      35.122  67.613  20.732  1.00 33.71     0.182 C 
+HETATM   10  C3  SGN C   3      34.640  66.394  21.527  1.00 35.79     0.178 C 
+HETATM   11  C4  SGN C   3      35.755  65.350  21.710  1.00 36.62     0.186 C 
+HETATM   12  C5  SGN C   3      37.028  66.026  22.205  1.00 39.32     0.181 C 
+HETATM   13  O5  SGN C   3      37.414  67.077  21.302  1.00 37.58    -0.349 OA
+BRANCH   9  14
+HETATM   14  N2  SGN C   3      34.129  68.660  20.839  1.00 29.28    -0.289 N 
+ATOM     15  H2  SGN C   3      33.876  69.056  21.744  1.00  0.00     0.175 HD
+BRANCH  14  16
+HETATM   16  S1  SGN C   3      33.421  69.190  19.444  1.00 27.84     0.205 S 
+HETATM   17  O1S SGN C   3      32.594  70.308  19.858  1.00 27.65    -0.578 OA
+HETATM   18  O2S SGN C   3      32.619  68.032  18.947  1.00 27.72    -0.578 OA
+HETATM   19  O3S SGN C   3      34.483  69.595  18.470  1.00 28.50    -0.578 OA
+ENDBRANCH  14  16
+ENDBRANCH   9  14
+BRANCH  10  20
+HETATM   20  O3  SGN C   3      33.524  65.805  20.864  1.00 34.89    -0.391 OA
+ATOM     21  H3  SGN C   3      33.580  64.858  20.928  1.00  0.00     0.210 HD
+ENDBRANCH  10  20
+BRANCH  11  22
+HETATM   22  O4  SGN C   3      35.340  64.382  22.690  1.00 37.13    -0.348 OA
+BRANCH  22  23
+HETATM   23  C1  UAP C   4      35.242  63.078  22.231  1.00 39.64     0.294 C 
+HETATM   24  C2  UAP C   4      34.966  62.136  23.389  1.00 38.70     0.228 C 
+HETATM   25  C3  UAP C   4      34.955  60.691  22.897  1.00 38.51     0.156 C 
+HETATM   26  C4  UAP C   4      34.202  60.488  21.502  1.00 38.14     0.077 C 
+HETATM   27  C5  UAP C   4      33.867  61.677  20.837  1.00 38.51     0.228 C 
+HETATM   28  O5  UAP C   4      34.155  63.021  21.317  1.00 37.46    -0.343 OA
+BRANCH  24  29
+HETATM   29  O2  UAP C   4      36.028  62.246  24.391  1.00 40.54    -0.244 OA
+BRANCH  29  30
+HETATM   30  S   UAP C   4      35.682  62.368  25.949  1.00 40.49     0.252 S 
+HETATM   31  O1S UAP C   4      35.118  61.076  26.365  1.00 40.89    -0.572 OA
+HETATM   32  O2S UAP C   4      34.702  63.456  26.082  1.00 37.88    -0.572 OA
+HETATM   33  O3S UAP C   4      36.941  62.670  26.649  1.00 37.47    -0.572 OA
+ENDBRANCH  29  30
+ENDBRANCH  24  29
+BRANCH  25  34
+HETATM   34  O3  UAP C   4      34.344  59.873  23.883  1.00 38.58    -0.393 OA
+ATOM     35  H3  UAP C   4      33.771  60.409  24.417  1.00  0.00     0.210 HD
+ENDBRANCH  25  34
+BRANCH  27  36
+HETATM   36  C6  UAP C   4      33.127  61.690  19.545  1.00 37.96     0.203 C 
+HETATM   37  O6A UAP C   4      32.244  60.829  19.363  1.00 40.05    -0.646 OA
+HETATM   38  O6B UAP C   4      33.428  62.561  18.701  1.00 36.71    -0.646 OA
+ENDBRANCH  27  36
+ENDBRANCH  22  23
+ENDBRANCH  11  22
+BRANCH  12  39
+HETATM   39  C6  SGN C   3      38.206  65.101  22.337  1.00 42.65     0.227 C 
+BRANCH  39  40
+HETATM   40  O6  SGN C   3      39.034  65.670  23.375  1.00 51.09    -0.254 OA
+BRANCH  40  41
+HETATM   41  S2  SGN C   3      39.812  64.634  24.307  1.00 54.80     0.251 S 
+HETATM   42  O4S SGN C   3      41.209  64.581  23.840  1.00 54.99    -0.572 OA
+HETATM   43  O5S SGN C   3      39.124  63.318  24.148  1.00 53.99    -0.572 OA
+HETATM   44  O6S SGN C   3      39.717  65.139  25.670  1.00 55.43    -0.572 OA
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+ENDBRANCH  12  39
+ENDBRANCH   7   8
+ENDBRANCH   4   7
+BRANCH   3  45
+HETATM   45  O3  IDS C   2      39.143  70.092  21.613  1.00 39.65    -0.390 OA
+ATOM     46  H3  IDS C   2      39.249  69.949  22.546  1.00  0.00     0.210 HD
+ENDBRANCH   3  45
+BRANCH   5  47
+HETATM   47  C6  IDS C   2      34.651  70.787  23.599  1.00 36.10     0.206 C 
+HETATM   48  O6A IDS C   2      34.863  70.741  24.831  1.00 32.44    -0.646 OA
+HETATM   49  O6B IDS C   2      33.539  70.555  23.069  1.00 33.44    -0.646 OA
+ENDBRANCH   5  47
+BRANCH   2  50
+HETATM   50  O2  IDS C   2      38.509  72.053  19.734  1.00 43.59    -0.244 OA
+BRANCH  50  51
+HETATM   51  S   IDS C   2      40.004  72.577  19.929  1.00 44.11     0.252 S 
+HETATM   52  O1S IDS C   2      40.105  73.087  21.339  1.00 44.48    -0.572 OA
+HETATM   53  O2S IDS C   2      40.223  73.647  18.933  1.00 44.29    -0.572 OA
+HETATM   54  O3S IDS C   2      40.881  71.442  19.701  1.00 44.74    -0.572 OA
+ENDBRANCH  50  51
+ENDBRANCH   2  50
+BRANCH   1  55
+HETATM   55  O4  SGN C   1      36.005  73.558  20.740  1.00 44.73    -0.348 OA
+BRANCH  55  56
+HETATM   56  C4  SGN C   1      35.164  74.247  19.788  1.00 48.25     0.186 C 
+HETATM   57  C3  SGN C   1      33.832  74.623  20.450  1.00 48.43     0.178 C 
+HETATM   58  C2  SGN C   1      33.001  75.485  19.501  1.00 48.58     0.181 C 
+HETATM   59  C1  SGN C   1      33.793  76.692  19.000  1.00 50.40     0.283 C 
+HETATM   60  O5  SGN C   1      35.018  76.261  18.395  1.00 50.82    -0.349 OA
+HETATM   61  C5  SGN C   1      35.869  75.525  19.305  1.00 51.58     0.181 C 
+BRANCH  57  62
+HETATM   62  O3  SGN C   1      33.105  73.449  20.774  1.00 46.09    -0.391 OA
+ATOM     63  H3  SGN C   1      33.633  72.685  20.570  1.00  0.00     0.210 HD
+ENDBRANCH  57  62
+BRANCH  58  64
+HETATM   64  N2  SGN C   1      31.791  75.936  20.157  1.00 48.56    -0.289 N 
+ATOM     65  H2  SGN C   1      31.802  76.509  21.002  1.00  0.00     0.175 HD
+BRANCH  64  66
+HETATM   66  S1  SGN C   1      30.389  75.448  19.426  1.00 47.67     0.205 S 
+HETATM   67  O1S SGN C   1      29.443  75.104  20.510  1.00 47.59    -0.578 OA
+HETATM   68  O2S SGN C   1      30.758  74.285  18.614  1.00 48.55    -0.578 OA
+HETATM   69  O3S SGN C   1      29.920  76.587  18.607  1.00 47.08    -0.578 OA
+ENDBRANCH  64  66
+ENDBRANCH  58  64
+BRANCH  59  70
+HETATM   70  O1  SGN C   1      34.094  77.533  20.061  1.00 51.36    -0.369 OA
+ATOM     71  H1  SGN C   1      33.366  78.120  20.224  1.00  0.00     0.212 HD
+ENDBRANCH  59  70
+BRANCH  61  72
+HETATM   72  C6  SGN C   1      37.149  75.237  18.561  1.00 55.48     0.227 C 
+BRANCH  72  73
+HETATM   73  O6  SGN C   1      38.141  76.228  18.906  1.00 61.59    -0.254 OA
+BRANCH  73  74
+HETATM   74  S2  SGN C   1      38.747  77.037  17.673  1.00 65.98     0.251 S 
+HETATM   75  O4S SGN C   1      39.732  78.059  18.244  1.00 65.09    -0.572 OA
+HETATM   76  O5S SGN C   1      37.628  77.678  17.008  1.00 65.58    -0.572 OA
+HETATM   77  O6S SGN C   1      39.456  75.999  16.747  1.00 65.84    -0.572 OA
+ENDBRANCH  73  74
+ENDBRANCH  72  73
+ENDBRANCH  61  72
+ENDBRANCH  55  56
+ENDBRANCH   1  55
+TORSDOF 27
+ENDMDL
