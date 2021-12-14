@@ -1,9 +1,9 @@
-# Docking
+# Protein-GAG Docking tutorial:
 This tutorial aims to dock glycans and glycosminoglycans to proteins using the [AutoDock Vina](https://vina.scripps.edu), [Vina-carb](https://pubs.acs.org/doi/10.1021/acs.jctc.5b00834) and [GlycoTorch Vina](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00373)
 You can download all the input files by clicking in Code --> Download Zip. Unzip this file and go inside docking directory. 
 We will breakdown this tutorial in five steps.
 
-## 1. Structure Preperation
+## 1. Obtain Proeyin and GAG Structure for docking: 
 In this tutorial we will be docking a Heparan sulfate (HS) etrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. Firt of all, download X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform following structure manipulations:
 #### Remove crystal waters: 
 Open 1t8u.pdb fil in PyMOL and click non on Action --> remove waters
@@ -15,7 +15,7 @@ Now select all the co-crystalized ligands and remove them (Action --> remove ato
 
 These files have been prepared and placed under gag-docking direcotry. 
 
-## 2. Preperation of reseptor and ligand PDBQT files
+## 2. Preperate reseptor and ligand input files for Vina (PDBQT files):
 Now copy your ligand.pdb and receptor.pdb files to fucose workstation (or locally in your computer if you have AutoDock Tools installed) and run following four commnads one after another to generate pdbqt file. In the PDBQT files, addtional colums of charge on each atom "Q"  and their atom-type "T" is is added. PDBQT files are contain information of rotatble bonds in the ligand for flexible ligand docking. 
 ```
 module load mgltools/v2.1.5.7 
@@ -25,7 +25,7 @@ prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 ```
 This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the direcotry where your ligand and receptor pdb files were placed. 
 
-## 3. Prepare docking configuration files
+## 3. Prepere docking configuration files
 Load 1T8U.pdb in pymol and open Auodock/Vina plugin. Select grid settings and set spacking to 1, X-points, Y-points and Z-points to 40. Now select heparin sulfate in PyMOL window and write "sele" in Selection abd hit eneter. You will see a 40 angstrom cubical box centered at the liagnd. Make sure ligand is place fully inside the box as docking program will do conformation search and find a possible docking solution inside the box only. 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/Screenshot%20from%202021-12-13%2015-40-31.png)
 
@@ -41,7 +41,7 @@ energy_range=10
 ```
 This file [config.txt](https://github.com/glycodynamics/gag-docking/blob/main/config.txt) has been prepared and provided in input files.
 
-## 4. Docking
+## 4. Perform Docking
 ```
 module load autodock-vina
 vina --config config.txt --out docked-vina.pdbqt  --log docked_vina.log
@@ -61,7 +61,11 @@ If you cannot run these calculation remotely, docking was performed and output f
 
 
 ## 5. Analyzing Docking Results
-We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. Now we want to visualize docking poses and see which program predicted heparin binding similar to what has been seen in the crystal structure of the X-ray structure of the complex obtained from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now load 
+We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb and GlycoTorchVina. These three program differ in their approach to sample glycosidic linkage and sugar ring. Now we want to visualize docking poses and see which program predicted heparin binding similar to what has been seen in the crystal structure of the X-ray structure of the complex obtained from PDB [PDB ID: 1T8U](https://www.rcsb.org/structure/1t8u). Now load 
 OPen PyMOL and load [docked-vina.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-vina.pdbqt) and view all 20 docking poses by pressing right arrow key of the keyboard. 
 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/docked_ligands.png)
+
+As shown above in the figure (middile), top scoring docked pose (pose 1) from AutoDock vina had docked liagnd sligtly diferently where only two monosaccharides overlap from its binding pose in the crystal strcture. If you play all the docking poses, pose 14 overlaps nicely over the crystal strcture binding pose. This shows that AutoDock vina was able to prodce a good docking pose but failed to rank that pose as top scoring pose. \
+On the other hnad, Vina-carb ranks that pose as the top-scoring pose as its top scoring pose overlaps very well over the crystal strcture binding pose.\
+Please not that aim of this tutorial is educate in running docking using all the three software and not to show that vina docking poses will be wrong and vina-carb will always provde a good docking pose. Performnce of docking programs is greatly affected by a number of factors and careful investigation is advised on case to case basis. However, in general vina-carb has shown improved accuracy for protein-glycan complexes when evaluated on larger protein-glycan datasets.  
