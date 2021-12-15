@@ -8,10 +8,12 @@ In this tutorial we will be docking a Heparan sulfate (HS) tetrasaccharide to hu
 #### Remove crystal waters: 
 Open 1t8u.pdb file in PyMOL and click non on Action --> remove waters
 #### Save ligand and protein separately
-Now split the complex in protein and HS and save them separately in two separate PDB files. 
+Now split the complex in protein and HS and save them separately in two separate PDB files. \
 Select HS tetrasaccharide by clicking left mouse button on each monosaccharide. Then click on File --> export molecule --> Selection (sele) --> Save File name: ligand --> Files of type: pdb --> save. A [ligand.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor_A.pdb) file will be saved in your computer 
 
-Now select all the co-crystalized ligands and remove them (Action --> remove atoms). Then save protein: File --> export molecule --> Selection (1t8u) --> Save File name: receptor --> Files of type: pdb --> save. A [receptor.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdb) file will be saved to your in teh specified direcotry of your compuer.
+Now select all the co-crystalized ligands and remove them (Action --> remove atoms). \
+Then save protein: File --> export molecule --> Selection (1t8u) --> Save File name: receptor --> Files of type: pdb --> save. \
+A [receptor.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdb) file will be saved to your in teh specified direcotry of your computer.
 
 These files have been prepared and placed under gag-docking directory. 
 
