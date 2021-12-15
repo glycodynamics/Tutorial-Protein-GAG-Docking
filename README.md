@@ -1,4 +1,4 @@
-## prerequisite
+## Software Required
 If you are a University of Mississippi member, following software are required to complete this tutorial:
 Linux/Mac Users: [PyMOL](https://pymol.org/2/)
 Windows Users: [PyMOL](https://pymol.org/2/), [PuTTY](https://www.putty.org/), [WinSCP](https://winscp.net/eng/download.php)
