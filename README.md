@@ -1,10 +1,23 @@
+## prerequisite
+If you are a University of Mississippi member, following software are required to complete this tutorial:
+Linux/Mac Users: [PyMOL](https://pymol.org/2/)
+Windows Users: [PyMOL](https://pymol.org/2/), [PuTTY](https://www.putty.org/), [WinSCP](https://winscp.net/eng/download.php)
+
+Other users are required to have:
+Linux/Mac Users: [PyMOL](https://pymol.org/2/), [AutoDock Vina](https://vina.scripps.edu/), [Vina-carb](http://legacy.glycam.org/docs/othertoolsservice/downloads/downloads-software/index.html) and [GlycoTorch Vina](https://github.com/EricBoittier/GlycoTorch-Vina)
+Windows Users: [PyMOL](https://pymol.org/2/), [PuTTY](https://www.putty.org/), [WinSCP](https://winscp.net/eng/download.php), [AutoDock Vina](https://vina.scripps.edu/) 
+
+Vina-carb and GlycoTorch Vina are not avaolable for windows users yet.
+
+
+
 # Protein-GAG Docking tutorial:
 This tutorial aims to dock glycans and glycosminoglycans to proteins using the [AutoDock Vina](https://vina.scripps.edu), [Vina-carb](https://pubs.acs.org/doi/10.1021/acs.jctc.5b00834) and [GlycoTorch Vina](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00373)
 You can download all the input files by clicking on Code --> Download Zip. Unzip this file and go inside the docking directory. 
 We will break down this tutorial into five steps.
 
 ## 1. Obtain Protein and GAG Structure for docking: 
-In this tutorial, we will be docking a Heparan sulfate (HS) tetrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. First of all, download the X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform the following structure manipulations:
+In this tutorial, we will be docking a Heparan sulfate (HS) tetrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. First of all, download the X-ray structure of the complex from PDB [PDB ID: 1T8U](https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform the following structure manipulations:
 #### Remove crystal waters: 
 Open 1t8u.pdb file in PyMOL and click non on Action --> remove waters
 #### Save ligand and protein separately
