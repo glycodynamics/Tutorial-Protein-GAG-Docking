@@ -3,8 +3,8 @@ This tutorial aims to dock glycans and glycosminoglycans to proteins using the [
 You can download all the input files by clicking on Code --> Download Zip. Unzip this file and go inside the docking directory. 
 We will break down this tutorial into five steps.
 
-## 1. Obtain Proein and GAG Structure for docking: 
-In this tutorial we will be docking a Heparan sulfate (HS) tetrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. First of all, download the X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform the following structure manipulations:
+## 1. Obtain Protein and GAG Structure for docking: 
+In this tutorial, we will be docking a Heparan sulfate (HS) tetrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. First of all, download the X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform the following structure manipulations:
 #### Remove crystal waters: 
 Open 1t8u.pdb file in PyMOL and click non on Action --> remove waters
 #### Save ligand and protein separately
@@ -13,7 +13,7 @@ Select HS tetrasaccharide by clicking left mouse button on each monosaccharide. 
 
 Now select all the co-crystalized ligands and remove them (Action --> remove atoms). \
 Then save protein: File --> export molecule --> Selection (1t8u) --> Save File name: receptor --> Files of type: pdb --> save. \
-A [receptor.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdb) file will be saved to your in teh specified direcotry of your computer.
+A [receptor.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdb) file will be saved to the current working directory of your computer.
 
 These files have been prepared and placed under gag-docking directory. 
 
@@ -28,7 +28,7 @@ prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the directory where your ligand and receptor PDB files were placed. 
 
 ## 3. Prepare docking configuration files
-Load 1T8U.pdb in pyMOL and open Auodock/Vina plugin. Select grid settings and set spcing to 1, X-points, Y-points, and Z-points to 40. Now select heparin sulfate in the PyMOL window, write "sele" in Selection and hit enter. You will see a 40-angstrom cubical box centered at the ligand. Make sure the ligand is placed entirely inside the box, as the docking program will do a conformation search and find a possible docking solution inside the box. 
+Load 1T8U.pdb in pyMOL and open Auodock/Vina plugin. Select grid settings and set spacing to 1, X-points, Y-points, and Z-points to 40. Now select heparin sulfate in the PyMOL window, write "sele" in Selection and hit enter. You will see a 40-angstrom cubical box centered at the ligand. Make sure the ligand is placed entirely inside the box, as the docking program will do a conformation search and find a possible docking solution inside the box. 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/Screenshot%20from%202021-12-13%2015-40-31.png)
 
 Now open config.txt file and add the following lines at the end of the file, then save and close. 
@@ -59,7 +59,7 @@ vina-carb --config config.txt --out docked-vinacarb.pdbqt  --log docked_vinacarb
 module load glycotorch-vina
 GlycoTorchVina --config config.txt --out docked-glycotorch.pdbqt  --log docked_glycotorch.log --chi_coeff 1 --chi_cutoff 2
 ```
-If you cannot run these calculations remotely, docking was performed, and output file from vina-carb [docked-vinacarb.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-vinacarb.pdbqt) and GlycoTorach Vina [docked-glycotorch.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-glycotorch.pdbqt) ate available for analysis. 
+If you cannot run these calculations remotely, docking was already performed and output files from vina-carb [docked-vinacarb.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-vinacarb.pdbqt) and GlycoTorach Vina [docked-glycotorch.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-glycotorch.pdbqt) ate available for analysis. 
 
 
 ## 5. Analyzing Docking Results
