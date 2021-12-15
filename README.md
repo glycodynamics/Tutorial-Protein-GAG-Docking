@@ -3,7 +3,7 @@ This tutorial aims to dock glycans and glycosminoglycans to proteins using the [
 You can download all the input files by clicking on Code --> Download Zip. Unzip this file and go inside the docking directory. 
 We will break down this tutorial into five steps.
 
-## 1. Obtain Proeyin and GAG Structure for docking: 
+## 1. Obtain Proein and GAG Structure for docking: 
 In this tutorial we will be docking a Heparan sulfate (HS) tetrasaccharide to human HS 3-O-sulfotransferase isoform 3 (3-OST-3), a key sulfotransferase that transfers a sulfuryl group to a specific glucosamine residue in HS. First of all, download the X-ray structure of the complex from PDB [PDB ID: 1T8U] (https://www.rcsb.org/structure/1t8u). Now, open the PDB Structure in PyMOL and perform the following structure manipulations:
 #### Remove crystal waters: 
 Open 1t8u.pdb file in PyMOL and click non on Action --> remove waters
