@@ -1,4 +1,4 @@
-## Software Requirement
+## Software Requirements
 If you are a University of Mississippi member, the following software are required to complete this tutorial:\
 Linux/Mac Users: [PyMOL](https://pymol.org/2/)\
 Windows Users: [PyMOL](https://pymol.org/2/), [PuTTY](https://www.putty.org/), [WinSCP](https://winscp.net/eng/download.php)\
@@ -71,19 +71,9 @@ total 800
 
 ```
 
-## 2. Prepare receptor and ligand input files for Vina (PDBQT files):
-Now copy your ligand.pdb and receptor.pdb files to fucose workstation (or locally in your computer if you have AutoDock Tools installed) and run the following four commands one after another to generate pdbqt file. In the PDBQT files, additional columns of charge on each atom "Q"  and their atom-type "T" are added. PDBQT files contain information of rotatable bonds in the ligand for flexible ligand docking. If you plan to use provided input files, run folwoing commands under directory ./practice
-
-```
-module load vina-carb/v1.2 mgltools/v2.1.5.7 autodock-vina glycotorch-vina
-prepare_pdb_split_alt_confs.py -r receptor.pdb 
-prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
-prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
-```
-This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the directory where your ligand and receptor PDB files were placed (./practice).\
 
 
-## 3. Prepare docking configuration files
+## 2. Prepare docking configuration files
 Load 1T8U.pdb in pyMOL and open the Auodock/Vina plugin. Select grid settings and set the spacing to 1, X-points, Y-points, and Z-points to 40. Now select heparin sulfate in the PyMOL window, write "sele" in Selection and hit enter. You will see a 40-angstrom cubical box centered at the ligand. Make sure the ligand is placed entirely inside the box, as the docking program will do a conformation search and find a possible docking solution inside the box. 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/Screenshot%20from%202021-12-13%2015-40-31.png)
 
@@ -97,7 +87,19 @@ seed=0
 num_modes=20
 energy_range=10
 ```
+
 These lines have been added to config.txt file [config.txt](https://github.com/glycodynamics/gag-docking/blob/main/config.txt) and provided to you togather with other input files.
+
+## 3. Prepare receptor and ligand input files for Vina (PDBQT files):
+Now copy your ligand.pdb and receptor.pdb files to fucose workstation (or locally in your computer if you have AutoDock Tools installed) and run the following four commands one after another to generate pdbqt file. In the PDBQT files, additional columns of charge on each atom "Q"  and their atom-type "T" are added. PDBQT files contain information of rotatable bonds in the ligand for flexible ligand docking. If you plan to use provided input files, run folwoing commands under directory ./practice
+
+```
+module load vina-carb/v1.2 mgltools/v2.1.5.7 autodock-vina glycotorch-vina
+prepare_pdb_split_alt_confs.py -r receptor.pdb 
+prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
+prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
+```
+This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the directory where your ligand and receptor PDB files were placed (./practice).\
 
 ## 4. Perform Docking
 ```
