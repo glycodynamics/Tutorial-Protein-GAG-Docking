@@ -28,17 +28,60 @@ Now select all the co-crystalized ligands and remove them (Action --> remove ato
 Then save protein: File --> export molecule --> Selection (1t8u) --> Save File name: receptor --> Files of type: pdb --> save. \
 A [receptor.pdb](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdb) file will be saved to the current working directory of your computer.
 
-These files have been prepared and placed under gag-docking directory. 
+These files have been prepared and placed under ./practice directory. 
+
+Login to fucose using the instructions provided during the lecture. Linux/Mac users can use terminal to connect to ccbrc workstation, whereas windows users should use PyTTY to connect to the ccbrc workstation.
+```
+leo:~ sushil$ ssh -X guestXX@machine.host.name
+guestXX@machine.host.name's password: 
+Last login: Thu Jan 28 18:24:45 2021
+
+##########################################################################
+##									##
+##    Computational Chemistry and Bioinformatics Research Core (CCBRC)	##
+##									##
+##			Support: sushil_at_olemiss.edu			##
+##									##
+##----------------------------------------------------------------------##
+## 	Access to this machine is strictly for research and to  	##
+##	authorized users only. 						## 
+##									##
+##########################################################################
+```
+Now if you will type "ls -l" and hit enter, there should be two directories "practice and tutorial" available to everyone.
+```
+-bash-4.2$ ls -l
+total 8
+drwxr-xr-x. 2 guest40 cgw 4096 Dec 15 15:50 practice
+drwxr-xr-x. 2 guest40 cgw 4096 Dec 15 15:50 tutorial
+```
+
+A directory named "practice" has only input files for docking, and you can run calculations under this directory. To do so, type cd "./practice" and hit enter. Then type "ls -l," and it should list six files (listed below). Directory "tutorial has all the precalculated data if you want to look into the correct output files.
+
+```
+-bash-4.2$ cd practice
+-bash-4.2$ ls -l
+total 800
+-rw-r--r--. 1 guest40 cgw 445014 Dec 15 15:50 1t8u.pdb
+-rw-r--r--. 1 guest40 cgw    233 Dec 15 15:50 config.txt
+-rwxr-xr-x. 1 guest40 cgw     74 Dec 15 15:50 delete_all_output.sh
+-rw-r--r--. 1 guest40 cgw   7244 Dec 15 15:50 ligand.pdb
+-rw-r--r--. 1 guest40 cgw 351639 Dec 15 15:50 receptor.pdb
+-rwxr-xr-x. 1 guest40 cgw    776 Dec 15 15:50 run_docking.sh
+
+```
 
 ## 2. Prepare receptor and ligand input files for Vina (PDBQT files):
-Now copy your ligand.pdb and receptor.pdb files to fucose workstation (or locally in your computer if you have AutoDock Tools installed) and run the following four commands one after another to generate pdbqt file. In the PDBQT files, additional columns of charge on each atom "Q"  and their atom-type "T" are added. PDBQT files contain information of rotatable bonds in the ligand for flexible ligand docking. 
+Now copy your ligand.pdb and receptor.pdb files to fucose workstation (or locally in your computer if you have AutoDock Tools installed) and run the following four commands one after another to generate pdbqt file. In the PDBQT files, additional columns of charge on each atom "Q"  and their atom-type "T" are added. PDBQT files contain information of rotatable bonds in the ligand for flexible ligand docking. If you plan to use provided input files, run folwoing commands under directory ./practice
+
 ```
 module load vina-carb/v1.2 mgltools/v2.1.5.7 autodock-vina glycotorch-vina
 prepare_pdb_split_alt_confs.py -r receptor.pdb 
 prepare_receptor4.py -r receptor_A.pdb -o receptor.pdbqt -A "hydrogens"
 prepare_ligand4.py -l ligand.pdb -o ligand.pdbqt -A hydrogens
 ```
-This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the directory where your ligand and receptor PDB files were placed. 
+This will create [ligand.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/ligand.pdbqt) and [receptor.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/receptor.pdbqt) files in the directory where your ligand and receptor PDB files were placed (./practice).\
+
 
 ## 3. Prepare docking configuration files
 Load 1T8U.pdb in pyMOL and open the Auodock/Vina plugin. Select grid settings and set the spacing to 1, X-points, Y-points, and Z-points to 40. Now select heparin sulfate in the PyMOL window, write "sele" in Selection and hit enter. You will see a 40-angstrom cubical box centered at the ligand. Make sure the ligand is placed entirely inside the box, as the docking program will do a conformation search and find a possible docking solution inside the box. 
@@ -54,7 +97,7 @@ seed=0
 num_modes=20
 energy_range=10
 ```
-This file [config.txt](https://github.com/glycodynamics/gag-docking/blob/main/config.txt) has been prepared and provided in input files.
+These lines have been added to config.txt file [config.txt](https://github.com/glycodynamics/gag-docking/blob/main/config.txt) and provided to you togather with other input files.
 
 ## 4. Perform Docking
 ```
@@ -78,8 +121,7 @@ bash ./run_docking.sh
 ```
 
 ## 5. Analyzing Docking Results
-We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb, and GlycoTorchVina. These three programs differ in their approach to sample glycosidic linkage and sugar ring. Now we want to visualize docking poses and see which program predicted heparin-binding similar to what has been seen in the crystal structure of the X-ray structure of the complex obtained from PDB [PDB ID: 1T8U](https://www.rcsb.org/structure/1t8u). Now load 
-OPen PyMOL and load [docked-vina.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-vina.pdbqt) and view all 20 docking poses by pressing the right arrow key of the keyboard. 
+We have docked heparin sulfate to sulfotransferase using three different software, AutoDock Vina, Vina-carb, and GlycoTorchVina. These three programs differ in their approach to sample glycosidic linkage and sugar ring. Now we want to visualize docking poses and see which program predicted heparin-binding similar to what has been seen in the crystal structure of the X-ray structure of the complex obtained from PDB [PDB ID: 1T8U](https://www.rcsb.org/structure/1t8u). Now Open PyMOL and load [docked-vina.pdbqt](https://github.com/glycodynamics/gag-docking/blob/main/docked-vina.pdbqt) and view all 20 docking poses by pressing the right arrow key of the keyboard. 
 
 ![alt text](https://github.com/glycodynamics/gag-docking/blob/main/images/docked_ligands.png)
 
